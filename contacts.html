@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO.</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="contacts.html" class="active">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-section">
+        <h2 class="burgundy-text">Get In Touch</h2>
+        <div class="contact-flex">
+            <form class="contact-form" id="contactForm">
+                <label>Name</label>
+                <input type="text" id="userName" placeholder="Your Name" required>
+                <label>Email</label>
+                <input type="email" id="userEmail" placeholder="Your Email" required>
+                <label>Message</label>
+                <textarea id="userMsg" rows="4" placeholder="How can I help you?" required></textarea>
+                <button type="submit" class="send-btn">Send Email</button>
+            </form>
+
+            <div class="contact-info">
+                <h4>Contact Details</h4>
+                <p><i class="fa fa-envelope"></i> orengarcia7@gmail.com</p>
+                <p><i class="fa fa-phone"></i> +63 909 377 1006</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/oren.garcia.sy" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/renquinonez" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/orengarcia" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
